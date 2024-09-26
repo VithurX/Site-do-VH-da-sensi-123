@@ -1,0 +1,56 @@
+body {
+    color: white;
+    background: black;
+    margin: 0px;
+    font-family: "Anton", sans-serif;
+ 
+}
+
+header{
+    border-bottom: solid 3px rgb(255 255 255);
+    padding: 30px;
+    font-size: 35px;
+}
+
+section {
+    background: rgb(77, 77, 77);
+    padding-bottom: 70px;
+    display: flex;
+    justify-content: center;
+}
+.chamada-texto {
+marging-right: 5%;
+
+}
+
+h1{
+font-size: 40px;
+}
+
+img {
+
+}
+
+.categoria-videos {
+dispay: flex;
+overflow-x: auto;
+gap: 50px;
+
+}
+
+section{
+    padding-left: 30px
+    padding-right: 30px
+}
+
+.categoria-videos img{
+    opacity: 0.5;
+    height: 200px;
+
+
+}
+
+.categoria-videos img:hover {
+    opacity: 1.0;
+    border: 2px solid red;
+}
